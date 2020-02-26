@@ -17,6 +17,10 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  google_fonts: ^0.3.9
+  font_awesome_flutter: ^8.7.0
+  universal_html: ^1.1.15
+  url_launcher: ^5.4.2
   flutter:
     sdk: flutter
 #  flare_flutter: ^2.0.1
@@ -43,7 +47,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/flare/analysis.flr
+    - assets/profile.jpg
+
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -57,6 +62,19 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
+#  fonts:
+#    - family: Lato
+#      fonts:
+#        - asset: assets/font_assets/Lato-Black.ttf
+#        - asset: assets/font_assets/Lato-BlackItalic.ttf
+#        - asset: assets/font_assets/Lato-Bold.ttf
+#        - asset: assets/font_assets/Lato-BoldItalic.ttf
+#        - asset: assets/font_assets/Lato-Light.ttf
+#        - asset: assets/font_assets/Lato-LightItalic.ttf
+#        - asset: assets/font_assets/Lato-Regular.ttf
+#        - asset: assets/font_assets/Lato-RegularItalic.ttf
+#        - asset: assets/font_assets/Lato-Thin.ttf
+#        - asset: assets/font_assets/Lato-ThinItalic.ttf
   # fonts:
   #   - family: Schyler
   #     fonts:
